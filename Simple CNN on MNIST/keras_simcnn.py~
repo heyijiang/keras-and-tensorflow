@@ -15,7 +15,7 @@ epoches=12
 
 img_rows,img_cols=28,28
 
-mnist=read_data_sets("../data/mnist",one_hot=True)
+mnist=read_data_sets("mnist",one_hot=True)
 x_train=mnist.train.images
 y_train=mnist.train.labels
 x_test=mnist.test.images
